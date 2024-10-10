@@ -2,7 +2,9 @@
 title: "Trying again"
 author: "Alinafe"
 date: "2024-10-10"
-output: html_document
+output: 
+  html_document: 
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE}
