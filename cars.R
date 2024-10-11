@@ -7,3 +7,5 @@ y <- cars[,2]
 z <- cars[,3]
 
 plot_ly(x = ~x, y= ~y, z = ~z, type = "scatter3d", mode = "markers")
+
+n_dist <- rnorm(20,0,3)
